@@ -1297,7 +1297,7 @@ async def update_time(client):
 
 async def update_status_rotation(client):
     """Rotate through status messages in bio"""
-    global status_rotation, status_rotation_active
+
     
     current_index = 0
     
